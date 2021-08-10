@@ -7,8 +7,8 @@ This project was bootstrapped with React JS.
 
 ### The below step help to create react js from scratch.
 ```
-mkdir react-app
-cd react-app
+mkdir todolist-in-reactjs
+cd todolist-in-reactjs
 mkdir public
 touch public/index.html
 mkdir src
@@ -19,7 +19,11 @@ npm install react-router-dom --save
 npm install
 npm update
 
-"start": "react-scripts start"
+"start": "react-scripts start",
+"build": "react-scripts build",
+"test": "react-scripts test",
+"eject": "react-scripts eject"
+
 <link rel="icon" id="favicon" href="%PUBLIC_URL%/favicon.png" />
 <link rel="stylesheet" href="%PUBLIC_URL%/css/style.css" />
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
